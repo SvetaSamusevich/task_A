@@ -1,0 +1,34 @@
+.locker{
+	width:500px;
+	height:500px;		
+	margin-left:50px;
+	margin-top:50px;
+}
+.div1 {
+    border: 5px solid #00a8e1;
+	width:400px;
+	height:200px;	
+	
+	margin-top:-400px;
+   }
+.rep{
+	width:370px;
+	height:250px;
+	margin-top:-450px;
+	margin-left:400px;
+	border: 5px solid #00a8e1;
+}
+.rep_list{
+	width:370px;
+	height:450px;
+}
+.jon{
+	margin-top:100px;
+	margin-left:-150px;
+}
+
+.h{
+	padding-left:950px;
+	padding-top:-50px;
+	
+}

@@ -1,0 +1,59 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+	<title>task</title>
+	<link rel="stylesheet" href="css/style.css">	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+
+<div>
+
+	<div class="locker" id="lok">
+	<h2>Элементы</h2>
+	<div class="row">
+		<div class="span3">
+			<img class="ch_kl" id="glue" src="img/ch-kl.png"  draggable="true" ondragstart="drag(event)">
+			<img class="beis" id="glove" src="img/beis.png" draggable="true" ondragstart="drag(event)">
+			<img class="voen" id="chip" src="img/voen.png" draggable="true" ondragstart="drag(event)">
+		</div>
+		<div class="span2">
+			<img class="lut" id="pony" src="img/lut.png" draggable="true" ondragstart="drag(event)">
+			<img class="micro" id="microscope" src="img/micro.png" draggable="true" ondragstart="drag(event)">						
+		</div>
+		<div class="span3">
+			<img class="car" id="car" src="img/car.png" draggable="true" ondragstart="drag(event)">
+			<img class="chas" id="clock" src="img/chas.png" draggable="true" ondragstart="drag(event)">
+			<img class="iso" id="tape" src="img/iso.png" draggable="true" ondragstart="drag(event)">
+		</div>	
+	</div>
+	</div>
+	<div class="rep">
+		<h2>Рецепты</h2>
+		<div class="rep_list" id="list">
+			<p id="p1"></p>
+			<p id="p2"></p>
+			<p id="p3"></p>
+		</div>		
+	</div>
+	
+	<div class="jon">
+	    <div class="h">
+		<h3>Поле для элементов</h3>
+		<h3>Порядок важен !</h3>
+		<div class="div1" id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+		<div class="but">
+			<button id="kraft" class="button">создать</button>
+			<button id="sbros" >сброс</button>
+		</div>
+		
+		</div>
+	</div>
+</div>
+<script src="js/rec.js"></script>
+<script src="js/dad.js"></script>
+<script src="js/kraft.js"></script>
+
+</body>
+
+</html>
